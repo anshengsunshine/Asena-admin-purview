@@ -16,9 +16,19 @@ export default defineComponent({
 </script>
 <style lang="less" scoped>
 .login_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 20px;
+    height: 80vh;
+    width: 100%;
   .login_form_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
     box-shadow: 0 0 10px 10px #ccc;
   }
 }
