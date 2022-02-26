@@ -1,5 +1,5 @@
 <template>
-  <a-layout>
+  <a-layout class="min_h_100">
     <a-layout-sider
       breakpoint="lg"
       collapsed-width="0"
@@ -31,9 +31,6 @@
           <header-comp />
       </a-layout-header>
       <a-layout-content :style="{ margin: '24px 16px 0' }">
-        <div :style="{ padding: '24px', background: '#fff', minHeight: '360px' }">
-          content
-        </div>
         <router-view />
       </a-layout-content>
       <a-layout-footer style="text-align: center">
